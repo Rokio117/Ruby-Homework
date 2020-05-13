@@ -6,6 +6,7 @@ class CreateApplications < ActiveRecord::Migration[6.0]
       t.string :color
       t.boolean :defaultStatus
       t.string :link
+      t.string :image
       t.timestamps
     end
   end
