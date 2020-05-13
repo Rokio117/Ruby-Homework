@@ -2,6 +2,10 @@
 
 
 <% @applications.each do |app| %>
-  <div><%= app.name %></div>
+  <div class="app-container>
+  <h4 class="app-name"><%= app.name %></h4>
+  <img src=<%= app.image %>></img>
+  <p><%= app.description %></p>
+  <div>
 
 <% end %>
